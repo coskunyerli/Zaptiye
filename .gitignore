@@ -1,0 +1,13 @@
+# Gizli: API anahtarı ve imza anahtarı asla yüklenmez
+config.json
+*.keystore
+*.jks
+
+# Derleme çıktıları (APK ve kurulum dosyaları GitHub Releases'e konur)
+android/build/
+android/*.apk
+desktop/node_modules/
+desktop/dist/
+desktop/release/
+desktop/web/
+node_modules/

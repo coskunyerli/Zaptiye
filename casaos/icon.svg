@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#166340"/>
+      <stop offset="1" stop-color="#062617"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2fbf6"/>
+      <stop offset="1" stop-color="#cfe9dc"/>
+    </linearGradient>
+    <linearGradient id="scr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f4a30"/>
+      <stop offset="1" stop-color="#05200f"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".22"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- zemin -->
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="509" height="509" rx="114.5" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="3"/>
+
+  <g transform="translate(0 -10)">
+    <!-- anten -->
+    <g stroke="#e6f7ee" stroke-width="16" stroke-linecap="round" fill="none">
+      <path d="M256 172 L198 108"/>
+      <path d="M256 172 L314 108"/>
+    </g>
+    <circle cx="256" cy="172" r="15" fill="#e6f7ee"/>
+
+    <!-- ayaklar -->
+    <g stroke="#cfe9dc" stroke-width="18" stroke-linecap="round">
+      <path d="M150 404 L134 432"/>
+      <path d="M362 404 L378 432"/>
+    </g>
+
+    <!-- gövde -->
+    <rect x="80" y="172" width="352" height="240" rx="54" fill="url(#body)"/>
+
+    <!-- ekran -->
+    <rect x="108" y="200" width="234" height="184" rx="36" fill="url(#scr)"/>
+    <rect x="108" y="200" width="234" height="184" rx="36" fill="url(#shine)"/>
+    <!-- canlı ışığı -->
+    <circle cx="142" cy="232" r="11" fill="#4ade80"/>
+
+    <!-- düğmeler ve hoparlör -->
+    <circle cx="387" cy="236" r="17" fill="#0f4a30"/>
+    <circle cx="387" cy="284" r="11" fill="#0f4a30" opacity=".75"/>
+    <g fill="#0f4a30" opacity=".5">
+      <rect x="370" y="320" width="34" height="7" rx="3.5"/>
+      <rect x="370" y="336" width="34" height="7" rx="3.5"/>
+      <rect x="370" y="352" width="34" height="7" rx="3.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+# Zaptiye — CasaOS / Docker
+# Dosyalar sunucuda /DATA/AppData/zaptiye klasöründe durur:
+#   /DATA/AppData/zaptiye/canli-yayinlar.html
+#   /DATA/AppData/zaptiye/nginx.conf
+# İmaj derlemeye gerek yok; hazır nginx imajı bu klasörü sunar.
+# HTML'i güncellemek için dosyayı değiştirip tarayıcıyı yenilemek yeter.
+name: zaptiye
+services:
+  zaptiye:
+    image: nginx:1.27-alpine
+    container_name: zaptiye
+    restart: unless-stopped
+    ports:
+      - "8765:80"
+    volumes:
+      - /DATA/AppData/zaptiye:/usr/share/nginx/html:ro
+      - /DATA/AppData/zaptiye/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    x-casaos:
+      ports:
+        - container: "80"
+          description:
+            en_us: Web arayüzü
+      volumes:
+        - container: /usr/share/nginx/html
+          description:
+            en_us: canli-yayinlar.html ve nginx.conf burada
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+    - arm
+  main: zaptiye
+  category: Media
+  author: me
+  developer: me
+  title:
+    en_us: Zaptiye
+  tagline:
+    en_us: Kanalları zapt eder: seçtiğin YouTube kanallarının canlı yayınları ve son videoları
+  description:
+    en_us: Seçtiğin YouTube kanallarını listelere ayır, canlı yayınları ve son videoları tek ekranda televizyon gibi izle.
+  port_map: "8765"
+  scheme: http
+  index: /

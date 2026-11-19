@@ -1,0 +1,54 @@
+{
+  "name": "zaptiye",
+  "productName": "Zaptiye",
+  "version": "3.4.0",
+  "description": "Seçtiğin YouTube kanallarının canlı yayınları ve son videoları",
+  "license": "MIT",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "node prepare.js && electron .",
+    "build": "node prepare.js && electron-packager . Zaptiye --platform=win32 --arch=x64 --icon=../icon.ico --out=dist --overwrite --asar --ignore=^/dist --app-copyright=Zaptiye --win32metadata.ProductName=Zaptiye --win32metadata.FileDescription=Zaptiye",
+    "dist": "node prepare.js && electron-builder --win nsis portable"
+  },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "electron": "45.4.1",
+    "electron-builder": "26.18.0"
+  },
+  "build": {
+    "appId": "com.zaptiye.desktop",
+    "productName": "Zaptiye",
+    "copyright": "Zaptiye",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.js",
+      "package.json",
+      "web/**"
+    ],
+    "win": {
+      "icon": "build/icon.ico",
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Zaptiye",
+      "installerIcon": "build/icon.ico",
+      "uninstallerIcon": "build/icon.ico",
+      "language": "1055",
+      "artifactName": "Zaptiye-Kurulum-${version}.exe"
+    },
+    "portable": {
+      "artifactName": "Zaptiye-Tasinabilir-${version}.exe"
+    }
+  }
+}

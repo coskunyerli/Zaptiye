@@ -1,0 +1,72 @@
+{
+  "key": "AIza...BURAYA_YOUTUBE_API_ANAHTARIN",
+  "days": 3,
+  "tvMode": true,
+  "every": 3,
+  "lists": [
+    {
+      "name": "Haber",
+      "pinned": true,
+      "channels": [
+        "Fatih Altaylı | @fatihaltayli",
+        "Cüneyt Özdemir | @cuneytozdemir",
+        "Nevşin Mengü | UCrG27KDq7eW4YoEOYsalU9g",
+        "Özlem Gürses | @OzlemGursesTV",
+        "Yılmaz Özdil | @yilmaz_ozdil",
+        "Levent Gültekin | @LeventGultekinOfficial",
+        "Murat Ağırel | @MuratAgirel",
+        "Murat Yetkin (Yetkin Report) | @muratyetkinreport",
+        "Deniz Zeyrek | @denizzeyrek36",
+        "Enver Aysever | @enveraysevera",
+        "Şule Aydın | @aydinsule1",
+        "Fehim Taştekin | @fehim.tastekin",
+        "Cansu Canan Özgen | @CansuCananOzgen",
+        "Bahar Feyzan | @baharfeyzan",
+        "Ünsal Ünlü | @gazeteciunsalunlu",
+        "Medyascope | @medyascope_tv",
+        "dokuz8 TV (Gökhan Biçici) | @dokuz8TV",
+        "Halk TV | @Halktv-eu",
+        "Sözcü Televizyonu | @Sozcutelevizyonu",
+        "Tele1 | @Tele1comtr",
+        "BirGün TV | @birguntv",
+        "Onlar TV | @OnlarTV"
+      ]
+    },
+    {
+      "name": "Teknoloji",
+      "pinned": true,
+      "channels": [
+        "Webtekno | @webteknotv",
+        "ShiftDelete.Net | @ShiftDeleteNet",
+        "Barış Özcan | UCv6jcPwFujuTIwFQ11jt1Yw",
+        "Donanım Arşivi | UCqY2B_Ydw6-X97dLJ0AZBzQ",
+        "Technopat | @technopat",
+        "PC Hocası TV | UCmP6XhB2emGUdi9RVteB4aQ",
+        "Linus Tech Tips | @LinusTechTips",
+        "Marques Brownlee (MKBHD) | @mkbhd",
+        "Mesut Çevik | @MesutCevik",
+        "Koray Birand | @koraybirand",
+        "Yusuf İpek | @yusufipk",
+        "Teknoblog | @teknoblog",
+        "Çiçek ile Teknoloji | @cicekileteknoloji",
+        "Ozan Sihay (Yapay Zeka) | @OzanSihay",
+        "Evrim Ağacı TeknoBilim | @evrimagaci2"
+      ]
+    },
+    {
+      "name": "Ürün İnceleme",
+      "pinned": true,
+      "channels": [
+        "TeknoSeyir | @teknoseyir",
+        "Tolga Özuygur | @Hallederiz",
+        "Mert Gündoğdu | @gundogdumert",
+        "Mrwhosetheboss | @Mrwhosetheboss",
+        "Unbox Therapy | @unboxtherapy",
+        "Dave2D | @Dave2D",
+        "JerryRigEverything | @JerryRigEverything",
+        "Hardware Unboxed | @Hardwareunboxed",
+        "Mert Bayantemur | @MertBayantemur"
+      ]
+    }
+  ]
+}

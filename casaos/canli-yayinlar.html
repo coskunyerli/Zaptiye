@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zaptiye</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzE2NjM0MCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNjI2MTciLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJvZHkiIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZjJmYmY2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NmZTlkYyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic2NyIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzBmNGEzMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNTIwMGYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InNoaW5lIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuMjIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KCiAgPCEtLSB6ZW1pbiAtLT4KICA8cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExNiIgZmlsbD0idXJsKCNiZykiLz4KICA8cmVjdCB4PSIxLjUiIHk9IjEuNSIgd2lkdGg9IjUwOSIgaGVpZ2h0PSI1MDkiIHJ4PSIxMTQuNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utb3BhY2l0eT0iLjA4IiBzdHJva2Utd2lkdGg9IjMiLz4KCiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAtMTApIj4KICAgIDwhLS0gYW50ZW4gLS0+CiAgICA8ZyBzdHJva2U9IiNlNmY3ZWUiIHN0cm9rZS13aWR0aD0iMTYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZmlsbD0ibm9uZSI+CiAgICAgIDxwYXRoIGQ9Ik0yNTYgMTcyIEwxOTggMTA4Ii8+CiAgICAgIDxwYXRoIGQ9Ik0yNTYgMTcyIEwzMTQgMTA4Ii8+CiAgICA8L2c+CiAgICA8Y2lyY2xlIGN4PSIyNTYiIGN5PSIxNzIiIHI9IjE1IiBmaWxsPSIjZTZmN2VlIi8+CgogICAgPCEtLSBheWFrbGFyIC0tPgogICAgPGcgc3Ryb2tlPSIjY2ZlOWRjIiBzdHJva2Utd2lkdGg9IjE4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICA8cGF0aCBkPSJNMTUwIDQwNCBMMTM0IDQzMiIvPgogICAgICA8cGF0aCBkPSJNMzYyIDQwNCBMMzc4IDQzMiIvPgogICAgPC9nPgoKICAgIDwhLS0gZ8O2dmRlIC0tPgogICAgPHJlY3QgeD0iODAiIHk9IjE3MiIgd2lkdGg9IjM1MiIgaGVpZ2h0PSIyNDAiIHJ4PSI1NCIgZmlsbD0idXJsKCNib2R5KSIvPgoKICAgIDwhLS0gZWtyYW4gLS0+CiAgICA8cmVjdCB4PSIxMDgiIHk9IjIwMCIgd2lkdGg9IjIzNCIgaGVpZ2h0PSIxODQiIHJ4PSIzNiIgZmlsbD0idXJsKCNzY3IpIi8+CiAgICA8cmVjdCB4PSIxMDgiIHk9IjIwMCIgd2lkdGg9IjIzNCIgaGVpZ2h0PSIxODQiIHJ4PSIzNiIgZmlsbD0idXJsKCNzaGluZSkiLz4KICAgIDwhLS0gY2FubMSxIMSxxZ/EscSfxLEgLS0+CiAgICA8Y2lyY2xlIGN4PSIxNDIiIGN5PSIyMzIiIHI9IjExIiBmaWxsPSIjNGFkZTgwIi8+CgogICAgPCEtLSBkw7zEn21lbGVyIHZlIGhvcGFybMO2ciAtLT4KICAgIDxjaXJjbGUgY3g9IjM4NyIgY3k9IjIzNiIgcj0iMTciIGZpbGw9IiMwZjRhMzAiLz4KICAgIDxjaXJjbGUgY3g9IjM4NyIgY3k9IjI4NCIgcj0iMTEiIGZpbGw9IiMwZjRhMzAiIG9wYWNpdHk9Ii43NSIvPgogICAgPGcgZmlsbD0iIzBmNGEzMCIgb3BhY2l0eT0iLjUiPgogICAgICA8cmVjdCB4PSIzNzAiIHk9IjMyMCIgd2lkdGg9IjM0IiBoZWlnaHQ9IjciIHJ4PSIzLjUiLz4KICAgICAgPHJlY3QgeD0iMzcwIiB5PSIzMzYiIHdpZHRoPSIzNCIgaGVpZ2h0PSI3IiByeD0iMy41Ii8+CiAgICAgIDxyZWN0IHg9IjM3MCIgeT0iMzUyIiB3aWR0aD0iMzQiIGhlaWdodD0iNyIgcng9IjMuNSIvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+Cg==">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png?v=2">
+<link rel="apple-touch-icon" href="icon-512.png?v=2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE: yayın kontrol odası — sakin, işlevsel, net
+   IDEA: bir reji masası: solda monitör, sağda "yayında" ışıkları yanan kanal listesi
+   PICTURE: büyük oynatıcı + canlı kanalların kartları
+   COLOUR: koyu grafit zemin, beyaz yazı, tek vurgu: yayın kırmızısı
+   TYPE / LAYOUT: Archivo başlıklar + Inter; geniş ekranda iki kolon, dar ekranda alt alta */
+:root{color-scheme:dark;--bg:#121418;--panel:#1b1e24;--line:#2a2e36;--ink:#eef0f3;--mute:#9aa1ad;--red:#ff3b30;--amber:#ffb020}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:16px max(3vw,14px);border-bottom:1px solid var(--line)}
+h1{font:800 22px/1.1 Archivo,sans-serif;margin:0;display:flex;align-items:center;gap:10px}
+.logo{width:36px;height:36px;display:block;flex:none}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;color:var(--mute);font-size:13px}
+button,select,input,textarea{font:inherit;color:inherit}
+button{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:9px 14px;min-height:40px;cursor:pointer}
+button:hover{border-color:#4a505c}button.pri{background:var(--red);border-color:var(--red);color:#fff;font-weight:600}
+button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+main{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:18px;padding:18px max(3vw,14px)}
+@media(max-width:900px){main{grid-template-columns:minmax(0,1fr)}}
+.stage{background:#000;border-radius:12px;overflow:hidden;aspect-ratio:16/9;position:relative;border:1px solid var(--line)}
+.stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.empty{position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:var(--mute);padding:20px}
+.now{margin-top:10px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+.now h2{font:700 18px/1.25 Archivo,sans-serif;margin:0}
+.now a{color:var(--amber)}
+aside h3{font:700 14px Archivo,sans-serif;margin:0 0 8px;color:var(--mute);font-weight:700}
+.list{display:grid;gap:8px;margin-bottom:18px}
+.card{display:grid;grid-template-columns:96px minmax(0,1fr);gap:10px;padding:8px;background:var(--panel);border:1px solid var(--line);border-radius:10px;cursor:pointer;text-align:left;width:100%}
+.card.sel{border-color:var(--red)}
+.card img{width:96px;aspect-ratio:16/9;object-fit:cover;border-radius:6px;background:#000}
+.card b{display:block;font-size:14px}.card span{display:block;font-size:12.5px;color:var(--mute);overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.tag{display:inline-block;font-size:11px;font-weight:600;padding:1px 6px;border-radius:4px;background:var(--red);color:#fff;margin-right:6px}
+.tag.up{background:var(--amber);color:#111}
+.off{font-size:13px;color:var(--mute);display:flex;flex-wrap:wrap;gap:6px}
+.off i{font-style:normal;padding:3px 8px;border:1px solid var(--line);border-radius:20px}
+.off i.err{border-color:#7a3a36;color:#ff9b94}
+.msg{padding:10px 12px;border-radius:8px;background:#2a1d10;border:1px solid #5a3d14;color:#ffd28a;font-size:13.5px;margin:0 max(3vw,14px)}
+.msg:empty{display:none}
+dialog{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:12px;width:min(640px,94vw);padding:20px}
+dialog::backdrop{background:rgba(0,0,0,.6)}
+dialog h2{font:700 20px Archivo,sans-serif;margin:0 0 6px}
+label{display:block;font-weight:600;margin:14px 0 6px}
+input,textarea,select{width:100%;background:#0f1114;border:1px solid var(--line);border-radius:8px;padding:10px;font-size:15px}
+textarea{min-height:220px;font-family:ui-monospace,Menlo,monospace;font-size:13px}
+.hint{font-size:12.5px;color:var(--mute);margin:4px 0 0}
+.row{display:flex;gap:8px;justify-content:flex-end;margin-top:16px;flex-wrap:wrap}
+.bar select{width:auto;padding:8px 10px}
+.tv{display:flex;align-items:center;gap:6px;margin:0;font-weight:600;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:0 12px;min-height:40px;cursor:pointer}
+.tv input{width:16px;height:16px;margin:0;accent-color:var(--red)}
+.links{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.links button{min-height:32px;padding:4px 10px;font-size:13px}
+.recent{margin-top:22px}
+.recent h3{font:700 14px Archivo,sans-serif;margin:0 0 8px;color:var(--mute)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.tag.old{background:#3a3f4a;color:var(--ink)}
+.tag.later{background:#1f5c45;color:#d8fff0}
+/* İzlenecekler: kartın köşesindeki ＋ / ✓ / ✕ düğmesi */
+.card{position:relative}
+.addl{position:absolute;top:6px;right:6px;font-style:normal;font-size:13px;line-height:1;padding:5px 7px;border-radius:6px;background:rgba(10,12,15,.85);border:1px solid var(--line);color:var(--ink);opacity:0;transition:opacity .15s}
+.card:hover .addl,.card.saved .addl{opacity:1}
+.card.saved .addl{color:#5fe3a8;border-color:#1f5c45}
+.addl:hover{border-color:var(--amber)}
+.tvui .card:not(.saved) .addl,.tvui.laterview .addl{display:none}
+.tvui .addl{font-size:16px;opacity:1}
+#laterInfo[hidden]{display:none}
+.tab small{opacity:.7;margin-left:6px;font-size:.85em}
+.more{margin-top:10px;width:100%}
+.more[hidden]{display:none}
+ol{padding-left:20px;margin:8px 0;color:var(--mute);font-size:13.5px}
+
+/* ---- Sekmeler (sabitlenmiş listeler). Sığmazsa solda dikey liste olur ---- */
+.tabs{display:flex;gap:6px;align-items:center;padding:12px max(3vw,14px) 8px;overflow-x:auto;scrollbar-width:none}
+.tvui .tabs{padding:14px 3vw 10px;gap:10px}
+.tabs::-webkit-scrollbar{display:none}
+.tab{white-space:nowrap;border-radius:999px;padding:7px 16px;min-height:38px;flex:none}
+.tab.on{background:var(--ink);color:var(--bg);border-color:var(--ink);font-weight:600}
+.tab.temp{border-style:dashed}
+.tab.all{margin-left:auto;color:var(--mute)}
+.tabs-side .shell{display:grid;grid-template-columns:210px minmax(0,1fr)}
+.tabs-side .tabs{flex-direction:column;align-items:stretch;overflow-y:auto;padding:18px 0 18px max(3vw,14px);position:sticky;top:0;max-height:100vh;align-self:start}
+.tabs-side .tab{border-radius:8px;text-align:left;white-space:normal}
+.tabs-side .tab.all{margin:8px 0 0}
+.tabs-side main{padding-left:16px}
+.watching .tabs{visibility:hidden}
+/* Listeler penceresi */
+.lrows{display:grid;gap:6px;margin:12px 0}
+.lrow{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:6px}
+.lopen{display:flex;justify-content:space-between;align-items:center;gap:10px;text-align:left}
+.lopen small{color:var(--mute);white-space:nowrap}
+.lopen.on{border-color:var(--ink)}
+.lpin.on{color:var(--amber);border-color:#6b5016}
+.check{display:flex;align-items:center;gap:10px;font-weight:600;margin:14px 0 0;cursor:pointer}
+.check input{width:20px;height:20px;margin:0;accent-color:var(--red)}
+button.danger{border-color:#7a3a36;color:#ff9b94}
+.tvui .tab{font-size:18px;padding:8px 20px;min-height:46px}
+.tvui .tab:focus{outline:4px solid var(--amber);outline-offset:2px}
+
+/* ---- Android TV arayüzü (kumanda ile kullanım, uzaktan okunur boyutlar) ---- */
+.tvui body{font-size:18px}
+.tvui header{padding:14px 3vw}
+.tvui h1{font-size:28px}.tvui .logo{width:44px;height:44px}
+.tvui .bar{font-size:16px}
+.tvui main{grid-template-columns:minmax(0,1fr) 34%;padding:16px 3vw}
+.tvui .card{grid-template-columns:150px minmax(0,1fr);padding:10px;gap:14px;transition:transform .12s}
+.tvui .card img{width:150px}
+.tvui aside .card{grid-template-columns:104px minmax(0,1fr)}
+.tvui aside .card img{width:104px}
+.tvui .card b{font-size:18px}.tvui .card span{font-size:15px}
+.tvui .grid{grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:10px}
+.tvui aside h3,.tvui .recent h3{font-size:17px}
+.tvui .now a{display:none}
+.tvui :focus{outline:4px solid var(--amber);outline-offset:3px}
+.tvui .card:focus{transform:scale(1.03);border-color:var(--amber);background:#252a33}
+.tvui .stage iframe{pointer-events:none}
+/* izleme: oynatıcı tam ekran */
+.watching .stage{position:fixed;inset:0;z-index:50;border-radius:0;border:0;aspect-ratio:auto}
+.watching{overflow:hidden}
+/* izlerken arkadaki sayfayı çizme: zayıf TV kutularında video takılmasın */
+.watching header,.watching aside,.watching .now,.watching .recent,.watching .msg{visibility:hidden}
+.watching .card img{content-visibility:hidden}
+.osd{position:fixed;left:3vw;bottom:5vh;z-index:60;background:rgba(10,12,15,.82);border:1px solid var(--line);border-radius:12px;padding:12px 18px;max-width:70vw;font-size:18px;opacity:0;transition:opacity .25s;pointer-events:none}
+.osd.show{opacity:1}
+.osd b{display:block;font:700 22px Archivo,sans-serif}
+.osd small{display:block;color:var(--mute);font-size:14px;margin-top:4px}
+/* Oynatıcı düğmeleri, duraklatma çubuğu, seçim penceresi */
+.links button.xb[hidden]{display:none}
+.tvui .links{gap:8px}
+.tvui .links button{min-height:42px;padding:4px 12px;font-size:15px}
+.tvui .now h2{font-size:17px}
+.tvui .links .hint{display:none}
+.tvui main{padding-bottom:14vh}   /* altta boşluk: düğmeler ekranın kenarında kalmasın */
+/* küçük oynatıcıdayken bildirim sağ üstte dursun, düğmeleri kapatmasın */
+html:not(.watching) .osd{bottom:auto;top:3vh;left:auto;right:3vw}
+.tvui .stage:focus{outline:4px solid var(--amber);outline-offset:3px}
+.pbar{position:fixed;left:50%;bottom:5vh;transform:translateX(-50%);z-index:62;display:flex;gap:10px;flex-wrap:nowrap;justify-content:center;background:rgba(10,12,15,.88);border:1px solid var(--line);border-radius:14px;padding:14px 18px;max-width:92vw}
+.pbar[hidden]{display:none}
+.pbar button{font-size:17px;min-height:50px;padding:8px 14px;white-space:nowrap}
+.pbar button[hidden]{display:none}
+.prows{display:grid;gap:6px;margin:12px 0;max-height:60vh;overflow-y:auto}
+.prows button{text-align:left;display:flex;justify-content:space-between;gap:10px}
+.prows button.on{border-color:var(--amber);color:var(--amber)}
+.prows p{margin:0;color:var(--mute)}
+.tvui .prows button{font-size:18px;min-height:50px}
+</style>
+<script>
+  // Android TV uygulaması kendi kullanıcı aracısıyla ya da ?tv=1 ile açar
+  window.IS_TV = /Zaptiye-AndroidTV/.test(navigator.userAgent) || new URLSearchParams(location.search).has('tv');
+  if (IS_TV) document.documentElement.classList.add('tvui');
+</script>
+</head>
+<body>
+<header>
+  <h1><img class="logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzE2NjM0MCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNjI2MTciLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJvZHkiIHgxPSIwIiB5MT0iMCIgeDI9IjAiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZjJmYmY2Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2NmZTlkYyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic2NyIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzBmNGEzMCIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNTIwMGYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InNoaW5lIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuMjIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIuNSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KCiAgPCEtLSB6ZW1pbiAtLT4KICA8cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExNiIgZmlsbD0idXJsKCNiZykiLz4KICA8cmVjdCB4PSIxLjUiIHk9IjEuNSIgd2lkdGg9IjUwOSIgaGVpZ2h0PSI1MDkiIHJ4PSIxMTQuNSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utb3BhY2l0eT0iLjA4IiBzdHJva2Utd2lkdGg9IjMiLz4KCiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAtMTApIj4KICAgIDwhLS0gYW50ZW4gLS0+CiAgICA8ZyBzdHJva2U9IiNlNmY3ZWUiIHN0cm9rZS13aWR0aD0iMTYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgZmlsbD0ibm9uZSI+CiAgICAgIDxwYXRoIGQ9Ik0yNTYgMTcyIEwxOTggMTA4Ii8+CiAgICAgIDxwYXRoIGQ9Ik0yNTYgMTcyIEwzMTQgMTA4Ii8+CiAgICA8L2c+CiAgICA8Y2lyY2xlIGN4PSIyNTYiIGN5PSIxNzIiIHI9IjE1IiBmaWxsPSIjZTZmN2VlIi8+CgogICAgPCEtLSBheWFrbGFyIC0tPgogICAgPGcgc3Ryb2tlPSIjY2ZlOWRjIiBzdHJva2Utd2lkdGg9IjE4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICA8cGF0aCBkPSJNMTUwIDQwNCBMMTM0IDQzMiIvPgogICAgICA8cGF0aCBkPSJNMzYyIDQwNCBMMzc4IDQzMiIvPgogICAgPC9nPgoKICAgIDwhLS0gZ8O2dmRlIC0tPgogICAgPHJlY3QgeD0iODAiIHk9IjE3MiIgd2lkdGg9IjM1MiIgaGVpZ2h0PSIyNDAiIHJ4PSI1NCIgZmlsbD0idXJsKCNib2R5KSIvPgoKICAgIDwhLS0gZWtyYW4gLS0+CiAgICA8cmVjdCB4PSIxMDgiIHk9IjIwMCIgd2lkdGg9IjIzNCIgaGVpZ2h0PSIxODQiIHJ4PSIzNiIgZmlsbD0idXJsKCNzY3IpIi8+CiAgICA8cmVjdCB4PSIxMDgiIHk9IjIwMCIgd2lkdGg9IjIzNCIgaGVpZ2h0PSIxODQiIHJ4PSIzNiIgZmlsbD0idXJsKCNzaGluZSkiLz4KICAgIDwhLS0gY2FubMSxIMSxxZ/EscSfxLEgLS0+CiAgICA8Y2lyY2xlIGN4PSIxNDIiIGN5PSIyMzIiIHI9IjExIiBmaWxsPSIjNGFkZTgwIi8+CgogICAgPCEtLSBkw7zEn21lbGVyIHZlIGhvcGFybMO2ciAtLT4KICAgIDxjaXJjbGUgY3g9IjM4NyIgY3k9IjIzNiIgcj0iMTciIGZpbGw9IiMwZjRhMzAiLz4KICAgIDxjaXJjbGUgY3g9IjM4NyIgY3k9IjI4NCIgcj0iMTEiIGZpbGw9IiMwZjRhMzAiIG9wYWNpdHk9Ii43NSIvPgogICAgPGcgZmlsbD0iIzBmNGEzMCIgb3BhY2l0eT0iLjUiPgogICAgICA8cmVjdCB4PSIzNzAiIHk9IjMyMCIgd2lkdGg9IjM0IiBoZWlnaHQ9IjciIHJ4PSIzLjUiLz4KICAgICAgPHJlY3QgeD0iMzcwIiB5PSIzMzYiIHdpZHRoPSIzNCIgaGVpZ2h0PSI3IiByeD0iMy41Ii8+CiAgICAgIDxyZWN0IHg9IjM3MCIgeT0iMzUyIiB3aWR0aD0iMzQiIGhlaWdodD0iNyIgcng9IjMuNSIvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+Cg==" alt="">Zaptiye</h1>
+  <div class="bar">
+    <span id="status">Hazır</span>
+    <label class="tv" title="Kayıtlı videolar baştan değil, rastgele bir yerinden başlar — televizyonu açmış gibi. Canlı yayınları etkilemez."><input type="checkbox" id="tvMode"> TV modu</label>
+    <select id="every" aria-label="Yenileme aralığı">
+      <option value="2">2 dk</option><option value="3" selected>3 dk</option><option value="5">5 dk</option><option value="10">10 dk</option>
+    </select>
+    <button id="refresh">Şimdi yenile</button>
+    <button id="openSet">⚙ Ayarlar</button>
+  </div>
+</header>
+<p class="msg" id="msg"></p>
+<div class="shell">
+<nav class="tabs" id="tabs" aria-label="Listeler"></nav>
+<main>
+  <section>
+    <div class="stage" id="stage"><div class="empty" id="empty">Sağdaki listeden canlı bir yayın seç.</div></div>
+    <div class="now" id="now"></div>
+    <div class="recent" id="recentBox">
+      <h3 id="recentTitle">Son videolar</h3>
+      <div class="grid" id="recent"><p class="off">Henüz kontrol edilmedi.</p></div>
+      <button class="more" id="more" hidden>Daha fazla göster</button>
+    </div>
+  </section>
+  <aside>
+    <div class="off" id="laterInfo" hidden></div>
+    <div id="alists">
+    <h3>Şu an yayında</h3>
+    <div class="list" id="live"><p class="off">Henüz kontrol edilmedi.</p></div>
+    <h3>Yaklaşan (planlanmış) yayınlar</h3>
+    <div class="list" id="up"><p class="off">—</p></div>
+    <h3>Yayında olmayan kanallar</h3>
+    <div class="off" id="offl"></div>
+    </div>
+  </aside>
+</main>
+</div>
+
+<dialog id="lists">
+  <h2>Listeler</h2>
+  <p class="hint" id="lhint">Bir listeyi açmak için adına bas. <b>📌</b> ile sekmeye sabitle ya da kaldır; listenin adına basılı tutarak da sabitleyebilirsin.</p>
+  <div class="lrows" id="lrows"></div>
+  <div class="row">
+    <button id="addPresets">Hazır listeleri ekle</button>
+    <button id="newList">+ Yeni liste</button>
+    <button class="pri" id="listsClose">Kapat</button>
+  </div>
+</dialog>
+
+<dialog id="listEd">
+  <h2 id="leTitle">Liste</h2>
+  <label for="leName">Liste adı</label>
+  <input id="leName" autocomplete="off" placeholder="ör. Teknoloji, Sağlık, Popüler">
+  <label for="leChans">Kanallar (her satıra bir tane)</label>
+  <textarea id="leChans" spellcheck="false"></textarea>
+  <p class="hint">Biçim: <code>Görünen ad | @kullaniciadi</code> veya <code>Görünen ad | UC...kanal kimliği</code>. Kullanıcı adı, kanalın YouTube adresindeki <code>youtube.com/@...</code> kısmıdır. Yalnızca ad yazarsan kanal YouTube'da adıyla aranır; yanlış kanal bulunabilir.</p>
+  <label class="check"><input type="checkbox" id="lePin"> Sekme olarak sabitle</label>
+  <div class="row">
+    <button id="leDefault">Hazır haber listesini yükle</button>
+    <button class="danger" id="leDelete">Listeyi sil</button>
+    <button id="leCancel">Vazgeç</button>
+    <button class="pri" id="leSave">Kaydet</button>
+  </div>
+</dialog>
+
+<div class="osd" id="osd" aria-live="polite"></div>
+<!-- Tam ekranda duraklatınca çıkan çubuk -->
+<div class="pbar" id="pbar" hidden>
+  <button data-act="resume" class="pri">▶ Devam</button>
+  <button data-act="cc">💬 Altyazı</button>
+  <button data-act="audio">🔊 Ses dili</button>
+  <button data-act="start">↺ Baştan</button>
+  <button data-act="later" class="laterBtn"></button>
+  <button data-act="exitfull">⤡ Küçült</button>
+</div>
+<!-- Altyazı / ses seçimi -->
+<dialog id="pick">
+  <h2 id="pickTitle">Seç</h2>
+  <div class="prows" id="prows"></div>
+  <div class="row"><button id="pickClose">Kapat</button></div>
+</dialog>
+
+<dialog id="set">
+  <h2>Ayarlar</h2>
+  <label for="key">YouTube Data API anahtarı</label>
+  <input id="key" type="password" autocomplete="off" placeholder="AIza...">
+  <ol>
+    <li>console.cloud.google.com'da bir proje aç.</li>
+    <li>"YouTube Data API v3"ü etkinleştir.</li>
+    <li>Kimlik bilgileri → API anahtarı oluştur. Güvenlik için anahtarı yalnızca bu API ile ve uygulamayı açtığın adreslerle sınırla: bilgisayar için "http://localhost:*", Android TV uygulaması için "https://zaptiye.app/*".</li>
+  </ol>
+  <label for="days">Son videolar: en fazla kaç gün önceki gösterilsin?</label>
+  <input id="days" type="number" min="0" max="30" step="1" inputmode="numeric">
+  <p class="hint">0 yazarsan son videolar bölümü gizlenir. En fazla 30 gün; her kanalın son 25 videosuna bakılır.</p>
+  <div id="qualityRow" hidden>
+    <label for="quality">Video kalitesi (tam ekran)</label>
+    <select id="quality">
+      <option value="0">Otomatik (YouTube seçsin)</option>
+      <option value="1080">Yüksek (~1080p)</option>
+      <option value="720">Orta (~720p) — önerilen</option>
+      <option value="480">Düşük (~480p) — en akıcı</option>
+    </select>
+    <p class="hint">Video takılıyorsa kaliteyi düşür. YouTube bağlantına göre bundan daha düşük bir kalite de seçebilir.</p>
+    <label for="codec">Video biçimi</label>
+    <select id="codec">
+      <option value="h264">H.264 — en akıcı (önerilen)</option>
+      <option value="vp9">VP9 — daha net, AV1 kapalı</option>
+      <option value="auto">YouTube seçsin</option>
+    </select>
+    <label for="fps">Kare hızı</label>
+    <select id="fps">
+      <option value="30">En fazla 30 kare/sn — akıcı (önerilen)</option>
+      <option value="0">60 kare/sn'ye izin ver</option>
+    </select>
+    <p class="hint">60 kare/sn videolar (oyun, spor, bazı teknoloji kanalları) TV kutusunu çok yorar, yer yer takılır. Sınır açıkken bu videolar 30 kare/sn sürümüyle oynar; bu sürüm çoğu zaman en fazla 480p'dir.</p>
+    <p class="hint">TV kutuları YouTube'un yeni AV1 biçimini çoğu zaman donanımla çözemez; video takılır ve donar. H.264'ü hemen her cihaz akıcı oynatır (en fazla 1080p).</p>
+  </div>
+  <p class="hint">Kanal listeleri artık <b>☰ Listeler</b> düğmesinden düzenleniyor.</p>
+  <div class="row">
+    <button id="clearCache">Kanal eşleşmelerini sıfırla</button>
+    <button id="close">Vazgeç</button>
+    <button class="pri" id="save">Kaydet ve kontrol et</button>
+  </div>
+</dialog>
+
+<script>
+{
+// Kanallar YouTube'da tek tek doğrulandı (18.11.2026). Nevşin Mengü'nün kullanıcı adında Türkçe harf
+// olduğu için kanal kimliğiyle yazıldı. Kendi kanalı olmayan gazeteciler (İsmail Saymaz, Timur Soykan,
+// Barış Pehlivan, Saygı Öztürk, Merdan Yanardağ) Halk TV, Sözcü, Onlar ve Tele1'de yayın yapıyor.
+const DEFAULT = `Fatih Altaylı | @fatihaltayli
+Cüneyt Özdemir | @cuneytozdemir
+Nevşin Mengü | UCrG27KDq7eW4YoEOYsalU9g
+Özlem Gürses | @OzlemGursesTV
+Yılmaz Özdil | @yilmaz_ozdil
+Levent Gültekin | @LeventGultekinOfficial
+Murat Ağırel | @MuratAgirel
+Murat Yetkin (Yetkin Report) | @muratyetkinreport
+Deniz Zeyrek | @denizzeyrek36
+Enver Aysever | @enveraysevera
+Şule Aydın | @aydinsule1
+Fehim Taştekin | @fehim.tastekin
+Cansu Canan Özgen | @CansuCananOzgen
+Bahar Feyzan | @baharfeyzan
+Ünsal Ünlü | @gazeteciunsalunlu
+Medyascope | @medyascope_tv
+dokuz8 TV (Gökhan Biçici) | @dokuz8TV
+Halk TV | @Halktv-eu
+Sözcü Televizyonu | @Sozcutelevizyonu
+Tele1 | @Tele1comtr
+BirGün TV | @birguntv
+Onlar TV | @OnlarTV`;
+
+// Hazır listeler (YouTube'da doğrulandı, 18.11.2026). Kullanıcı adında Türkçe harf olanlar kanal kimliğiyle yazıldı.
+const PRESETS = [
+  { name: 'Teknoloji', chans: `Webtekno | @webteknotv
+ShiftDelete.Net | @ShiftDeleteNet
+Barış Özcan | UCv6jcPwFujuTIwFQ11jt1Yw
+Donanım Arşivi | UCqY2B_Ydw6-X97dLJ0AZBzQ
+Technopat | @technopat
+PC Hocası TV | UCmP6XhB2emGUdi9RVteB4aQ
+Linus Tech Tips | @LinusTechTips
+Marques Brownlee (MKBHD) | @mkbhd
+Mesut Çevik | @MesutCevik
+Koray Birand | @koraybirand
+Yusuf İpek | @yusufipk
+Teknoblog | @teknoblog
+Çiçek ile Teknoloji | @cicekileteknoloji
+Ozan Sihay (Yapay Zeka) | @OzanSihay
+Evrim Ağacı TeknoBilim | @evrimagaci2` },
+  { name: 'Ürün İnceleme', chans: `TeknoSeyir | @teknoseyir
+Tolga Özuygur | @Hallederiz
+Mert Gündoğdu | @gundogdumert
+Mrwhosetheboss | @Mrwhosetheboss
+Unbox Therapy | @unboxtherapy
+Dave2D | @Dave2D
+JerryRigEverything | @JerryRigEverything
+Hardware Unboxed | @Hardwareunboxed
+Mert Bayantemur | @MertBayantemur` },
+];
+
+const $ = id => document.getElementById(id);
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem('cyt_'+k); return v==null ? d : JSON.parse(v); }catch(e){ return d; } },
+  set(k, v){ try{ localStorage.setItem('cyt_'+k, JSON.stringify(v)); }catch(e){} }
+};
+let key = store.get('key','');
+let cache = store.get('cache', {});   // satır -> {id,title,thumb}
+// Listeler: [{id, name, chans (metin), pinned}]. Sabitlenenler sekme olur.
+// Eski sürümden gelen tek kanal listesi "Haber" listesine taşınır.
+const uid = () => 'l' + Math.random().toString(36).slice(2, 9);
+let lists = store.get('lists', null);
+if (!Array.isArray(lists) || !lists.length) {
+  lists = [{ id: 'haber', name: 'Haber', chans: store.get('chans', DEFAULT), pinned: true }];
+  // ilk kez açanlar için hazır listeler de gelsin (eski sürümden gelenlerin kanal listesine dokunulmaz)
+  if (store.get('chans', null) == null) PRESETS.forEach(p => lists.push({ id: uid(), name: p.name, chans: p.chans, pinned: true }));
+}
+let activeId = store.get('active', lists[0].id);
+const results = {};   // liste kimliği -> son kontrol sonucu (sekmeler arası geçişte hemen göstermek için)
+let again = false;
+// İzlenecekler: kaydedilen videolar [{id, title, who, dur, thumb, at, pos, seen}]. Özel bir liste (sekme) olarak görünür.
+let later = store.get('later', []);
+if (!Array.isArray(later)) later = [];
+const isLater = id => later.some(x => x.id === id);
+function ensureWatchList(){
+  if (!lists.some(l => l.watch)) lists.splice(Math.min(1, lists.length), 0, { id: 'izle', name: 'İzlenecekler', chans: '', pinned: true, watch: true });
+}
+ensureWatchList();
+let cur = null;   // oynatılan video {id, title, who, dur}
+function saveLists(){ store.set('lists', lists); store.set('active', activeId); }
+function activeList(){ return lists.find(l => l.id === activeId) || lists[0]; }
+let every = store.get('every', 3);
+let days = store.get('days', 3);
+let tvMode = store.get('tv', false);
+// TV'de tam ekran video kalitesi (cihaz pikseli yüksekliği; 0 = YouTube seçsin). Düşük kalite = daha az takılma.
+let tvQuality = store.get('q', 720);
+// TV'de YouTube'un göndereceği video biçimi (Android uygulaması oynatıcıya iletir): h264 | vp9 | auto
+let tvCodec = store.get('codec', 'h264');
+// En fazla kare/sn (0 = sınır yok). Mi Box gibi kutular 60 kare/sn videolarda takılabiliyor.
+let tvFps = store.get('fps', 30);
+let pendingRefresh = false;
+let timer = null, selected = null, busy = false, recentAll = [], recentShown = 0;
+const PAGE = 24;
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const msg = t => $('msg').textContent = t || '';
+const status = t => $('status').textContent = t;
+
+async function api(path, params){
+  const u = new URL('https://www.googleapis.com/youtube/v3/' + path);
+  Object.entries({...params, key}).forEach(([k,v]) => u.searchParams.set(k, v));
+  const r = await fetch(u);
+  const j = await r.json();
+  if (j.error) {
+    const reason = j.error.errors?.[0]?.reason || '';
+    if (reason.includes('quota')) throw new Error('Günlük API kotası doldu. Yenileme aralığını uzat ya da yarın tekrar dene.');
+    throw new Error(j.error.message || 'API hatası');
+  }
+  return j;
+}
+
+function parseLines(text){
+  return String(text || '').split('\n').map(l => l.trim()).filter(Boolean).map(l => {
+    const [name, ref] = l.split('|').map(s => s && s.trim());
+    return { line: l, name, ref: ref || '' };
+  });
+}
+
+async function resolve(c){
+  if (cache[c.line]) return cache[c.line];
+  let item = null;
+  if (/^UC[\w-]{20,}$/.test(c.ref)) {
+    item = (await api('channels', { part:'snippet', id:c.ref })).items?.[0];
+  } else if (c.ref.startsWith('@')) {
+    item = (await api('channels', { part:'snippet', forHandle:c.ref })).items?.[0];
+  }
+  if (!item) {   // kimlik/kullanıcı adı yoksa ya da bulunamadıysa adla ara
+    const s = (await api('search', { part:'snippet', type:'channel', q:c.name, maxResults:1, regionCode:'TR' })).items?.[0];
+    if (s) item = { id: s.snippet.channelId, snippet: s.snippet };
+  }
+  if (!item) return null;
+  const r = { id: typeof item.id === 'string' ? item.id : item.id.channelId, title: item.snippet.title, thumb: item.snippet.thumbnails?.default?.url || '' };
+  cache[c.line] = r; store.set('cache', cache);
+  return r;
+}
+
+// YouTube Shorts'u ve kısa videoları ele: API "Short mu?" bilgisini vermediği için
+// süre ≤ 5 dk ya da başlık/açıklamada #shorts geçiyorsa listeye alınmaz.
+function seconds(iso){
+  const m = /^P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/.exec(iso || '');
+  return m ? ((+m[1]||0)*86400 + (+m[2]||0)*3600 + (+m[3]||0)*60 + (+m[4]||0)) : 0;
+}
+function isShort(v){
+  const s = seconds(v.contentDetails?.duration);
+  if (s > 0 && s <= 300) return true;
+  return /#shorts?\b/i.test((v.snippet.title || '') + ' ' + (v.snippet.description || ''));
+}
+
+// Yalnızca açık sekmedeki listeyi kontrol eder (API kotası için). Sonuç listeye göre saklanır.
+async function check(){
+  if (activeList().watch) { showLater(); return; }   // İzlenecekler: API gerekmez
+  if (busy) { again = true; return; }
+  if (!key) { msg('Başlamak için Ayarlar\'dan YouTube API anahtarını gir.'); $('set').showModal(); return; }
+  const L = activeList(), lid = L.id;
+  const chans = parseLines(L.chans), res = [];
+  if (!chans.length) { results[lid] = { live: [], up: [], res: [], recent: [], at: Date.now() }; show(lid); return; }
+  busy = true; msg(''); status(L.name + ' · kontrol ediliyor…');
+  try {
+    for (const c of chans) {
+      try { res.push({ c, ch: await resolve(c) }); }
+      catch (e) { if (/kota/i.test(e.message)) throw e; res.push({ c, ch: null, err: e.message }); }
+    }
+    // Her kanalın son yüklemeleri (1 birim/kanal). İlk 5 her zaman (canlı yayın tespiti için),
+    // geri kalanı yalnızca seçilen gün aralığındaysa alınır.
+    const vidOwner = {}, since = Date.now() - days * 864e5;
+    await Promise.all(res.filter(r => r.ch).map(async r => {
+      try {
+        const pl = 'UU' + r.ch.id.slice(2);
+        const j = await api('playlistItems', { part:'contentDetails', playlistId:pl, maxResults: days > 0 ? 25 : 5 });
+        (j.items || []).forEach((it, i) => {
+          const pub = Date.parse(it.contentDetails.videoPublishedAt || '') || 0;
+          if (i < 5 || pub >= since) vidOwner[it.contentDetails.videoId] = r;
+        });
+      } catch (e) { r.err = e.message; }
+    }));
+    // Videoların canlı durumu (50'lik paketler, 1 birim/paket)
+    const ids = Object.keys(vidOwner), live = [], up = [], recent = [];
+    for (let i = 0; i < ids.length; i += 50) {
+      const j = await api('videos', { part:'snippet,liveStreamingDetails,contentDetails', id: ids.slice(i, i+50).join(',') });
+      for (const v of j.items || []) {
+        const st = v.snippet.liveBroadcastContent;
+        const row = { id: v.id, title: v.snippet.title, thumb: v.snippet.thumbnails?.medium?.url, who: vidOwner[v.id], d: v.liveStreamingDetails || {} };
+        if (st === 'live') live.push(row);
+        else if (st === 'upcoming') { if (row.d.scheduledStartTime && new Date(row.d.scheduledStartTime) > Date.now() - 36e5) up.push(row); }
+        else {
+          row.pub = Date.parse(row.d.actualStartTime || v.snippet.publishedAt) || 0;
+          row.dur = seconds(v.contentDetails?.duration);
+          if (days > 0 && row.pub >= since && !isShort(v)) recent.push(row);
+        }
+      }
+    }
+    live.sort((a,b) => (+b.d.concurrentViewers||0) - (+a.d.concurrentViewers||0));
+    up.sort((a,b) => new Date(a.d.scheduledStartTime) - new Date(b.d.scheduledStartTime));
+    recent.sort((a,b) => b.pub - a.pub);
+    results[lid] = { live, up, res, recent, at: Date.now() };
+    if (activeId === lid) show(lid);
+  } catch (e) {
+    msg(e.message); status('Hata');
+  }
+  busy = false;
+  // kontrol sürerken başka sekmeye geçildiyse onu da kontrol et
+  if (again) { again = false; if (activeId !== lid) check(); }
+}
+
+// Bir listenin son sonucunu ekrana bas
+function show(lid){
+  const r = results[lid], L = lists.find(l => l.id === lid);
+  if (L && L.watch) return showLater();
+  if (!r || !L) return;
+  document.documentElement.classList.remove('laterview');
+  $('alists').hidden = false; $('laterInfo').hidden = true;
+  keepFocus(() => { render(r.live, r.up, r.res, !parseLines(L.chans).length); renderRecent(r.recent); });
+  status(L.name + ' · son kontrol ' + new Date(r.at).toLocaleTimeString('tr-TR', { hour:'2-digit', minute:'2-digit' }) + ' · ' + r.live.length + ' canlı');
+}
+
+function ago(t){
+  const m = Math.max(1, Math.round((Date.now() - t) / 6e4));
+  if (m < 60) return m + ' dk önce';
+  const h = Math.round(m / 60);
+  if (h < 24) return h + ' sa önce';
+  const d = Math.round(h / 24);
+  return d === 1 ? 'dün' : d + ' gün önce';
+}
+
+function card(v, kind){   // kind: 'live' | 'up' | 'old' | 'later'
+  const viewers = v.d.concurrentViewers ? (+v.d.concurrentViewers).toLocaleString('tr-TR') + ' izleyici' : '';
+  const resume = kind === 'later' && !v.seen && v.pos > 30;
+  const label = kind === 'up' ? new Date(v.d.scheduledStartTime).toLocaleString('tr-TR', { weekday:'short', hour:'2-digit', minute:'2-digit' })
+              : kind === 'old' ? ago(v.pub)
+              : kind === 'later' ? (v.seen ? 'İZLENDİ ✓' : resume ? clock(v.pos) + ' kaldın' : 'İZLENECEK') : 'CANLI';
+  const saved = isLater(v.id);
+  const badge = kind === 'later' ? `<i class="addl" data-later title="İzleneceklerden çıkar">✕</i>`
+              : `<i class="addl" data-later title="${saved ? 'İzleneceklerden çıkar' : 'İzleneceklere ekle'}">${saved ? '✓' : '＋'}</i>`;
+  const dur = kind === 'old' || kind === 'later' ? (v.dur || 0) : 0;
+  const from = kind === 'later' ? ` data-from="${resume ? v.pos - 5 : 0}"` : '';
+  return `<button class="card${selected===v.id?' sel':''}${saved?' saved':''}" data-long data-id="${esc(v.id)}" data-t="${esc(v.title)}" data-w="${esc(v.who.c.name)}" data-dur="${dur}"${from}>
+    <img src="${esc(v.thumb)}" alt="" loading="lazy">${badge}
+    <div><b><span class="tag${kind==='live'?'':' '+kind}">${esc(label)}</span>${esc(v.who.c.name)}</b>
+    <span>${esc(v.title)}</span><span>${esc(viewers)}</span></div></button>`;
+}
+
+function render(live, up, res, emptyList){
+  $('live').innerHTML = emptyList ? '<p class="off">Bu listede henüz kanal yok. ☰ Listeler → ✎ Düzenle ile kanal ekle.</p>'
+    : live.length ? live.map(v => card(v, 'live')).join('') : '<p class="off">Şu an listedeki kanalların hiçbiri canlı yayında değil.</p>';
+  $('up').innerHTML = up.length ? up.map(v => card(v, 'up')).join('') : '<p class="off">Planlanmış yayın yok.</p>';
+  const liveSet = new Set(live.map(v => v.who.c.line));
+  $('offl').innerHTML = res.filter(r => !liveSet.has(r.c.line)).map(r =>
+    r.ch ? `<i title="${esc(r.ch.title)}">${esc(r.c.name)}</i>` : `<i class="err" title="${esc(r.err || 'Kanal bulunamadı')}">${esc(r.c.name)} ⚠</i>`
+  ).join('');
+}
+
+let recentKind = 'old';
+function renderRecent(list){
+  recentAll = list; recentShown = PAGE; recentKind = 'old';
+  $('recentBox').hidden = days <= 0;
+  $('recentTitle').textContent = `Son videolar (son ${days} gün · ${list.length} video)`;
+  drawRecent();
+}
+function drawRecent(){
+  $('recent').innerHTML = recentAll.length ? recentAll.slice(0, recentShown).map(v => card(v, recentKind)).join('')
+    : recentKind === 'later'
+      ? `<p class="off">Henüz kayıtlı video yok. ${IS_TV ? 'Bir videonun üstünde OK\'e basılı tut' : 'Bir videonun köşesindeki ＋ düğmesine bas'}; video buraya eklenir.</p>`
+      : '<p class="off">Bu aralıkta yeni video yok.</p>';
+  $('more').hidden = recentShown >= recentAll.length;
+}
+
+// ---------- İzlenecekler ----------
+function showLater(){
+  const cards = () => [...document.querySelectorAll('#recent .card')];
+  const a = document.activeElement, fid = a?.dataset?.id, fidx = a && a.matches && a.matches('#recent .card') ? cards().indexOf(a) : -1;
+  document.documentElement.classList.add('laterview');
+  $('alists').hidden = true; $('laterInfo').hidden = false;
+  $('live').innerHTML = $('up').innerHTML = $('offl').innerHTML = '';   // gizli kartlar kanal değiştirmeye karışmasın
+  $('laterInfo').textContent = IS_TV
+    ? 'OK: izle (kaldığın yerden devam eder) · OK\'e basılı tut: listeden çıkar. Başka sekmelerde bir videonun üstünde OK\'e basılı tutarak buraya ekleyebilirsin; izlerken de OK\'e basılı tut.'
+    : 'Kaldığın yerden devam eder. Çıkarmak için kartın köşesindeki ✕\'e bas. Başka sekmelerde kartın köşesindeki ＋ ile (ya da sağ tık / basılı tutma) buraya eklersin.';
+  recentAll = later.map(x => ({ ...x, who: { c: { name: x.who } }, d: {} }));
+  recentKind = 'later'; recentShown = Math.max(recentShown, PAGE);
+  $('recentBox').hidden = false;
+  $('recentTitle').textContent = `İzlenecekler (${later.length} video)`;
+  drawRecent();
+  status(`İzlenecekler · ${later.length} video`);
+  if (!IS_TV || watching()) return;
+  const list = cards();
+  const el = (fid && list.find(c => c.dataset.id === fid)) || (fidx >= 0 ? list[Math.min(fidx, list.length - 1)] : null);
+  if (el) el.focus({ preventScroll: true });
+  else if (fidx >= 0) document.querySelector('#tabs .tab.on')?.focus();
+}
+const cardItem = c => ({ id: c.dataset.id, title: c.dataset.t, who: c.dataset.w, dur: +c.dataset.dur || 0 });
+function toggleLater(it){
+  if (!it || !it.id) return;
+  const i = later.findIndex(x => x.id === it.id), on = i < 0;
+  if (on) later.unshift({ id: it.id, title: it.title, who: it.who, dur: +it.dur || 0, thumb: `https://i.ytimg.com/vi/${encodeURIComponent(it.id)}/mqdefault.jpg`, at: Date.now(), pos: 0 });
+  else later.splice(i, 1);
+  store.set('later', later);
+  if (activeList().watch && !watching()) showLater();
+  else document.querySelectorAll(`.card[data-id="${CSS.escape(it.id)}"]`).forEach(c => {
+    c.classList.toggle('saved', on);
+    const b = c.querySelector('.addl'); if (b) { b.textContent = on ? '✓' : '＋'; b.title = on ? 'İzleneceklerden çıkar' : 'İzleneceklere ekle'; }
+  });
+  renderTabs(); nowLaterBtn();
+  osd(`<b>${on ? '✓ İzleneceklere eklendi' : 'İzleneceklerden çıkarıldı'}</b>${esc(it.title)}`);
+}
+// Oynatılan videonun nerede kaldığını kaydet (yalnızca İzlenecekler'deyse)
+function saveLaterPos(){
+  if (!cur) return;
+  const x = later.find(l => l.id === cur.id), t = Math.floor(ytTime || 0);
+  if (!x || t <= 0) return;
+  if (x.dur && t > x.dur - 60) { x.seen = true; x.pos = 0; } else { x.pos = t; x.seen = false; }
+  store.set('later', later);
+}
+function nowLaterBtn(){
+  if (!cur) return;
+  const on = isLater(cur.id);
+  document.querySelectorAll('.laterBtn').forEach(b => b.textContent = (IS_TV || b.closest('#pbar')) ? (on ? '✓ Kayıtlı' : '＋ Sonra izle') : (on ? '✓ İzleneceklerde' : '＋ İzleneceklere ekle'));
+}
+
+function clock(s){
+  const h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60), x = s % 60;
+  return (h ? h + ':' + String(m).padStart(2,'0') : m) + ':' + String(x).padStart(2,'0');
+}
+
+// TV modu: kayıtlı videoyu %10–%80 arası rastgele bir noktadan başlat (start = -1 → rastgele seç)
+function play(id, title, who, dur = 0, start = -1){
+  saveLaterPos();
+  cur = { id, title, who, dur };
+  selected = id;
+  if (start < 0) start = (tvMode && dur > 120) ? Math.floor(dur * (0.1 + Math.random() * 0.7)) : 0;
+  document.querySelectorAll('.card').forEach(c => c.classList.toggle('sel', c.dataset.id === id));
+  const from = start > 0 ? '&start=' + start : '';
+  const jsapi = location.protocol.startsWith('http') ? '&enablejsapi=1&origin=' + encodeURIComponent(location.origin) : '';
+  $('stage').innerHTML = `<iframe id="yt" src="https://www.youtube.com/embed/${encodeURIComponent(id)}?autoplay=1&rel=0&playsinline=1${from}${jsapi}${IS_TV ? '&zc=' + tvCodec + '&zf=' + tvFps : ''}" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen tabindex="-1" title="${esc(title)}"></iframe>`;
+  ytTime = start; ytState = -1; bridge = false; hidePbar();
+  $('yt').onload = () => ytCmd('listening');
+  cur.start = start;
+  const startHint = start > 0 ? `<span class="hint">${clock(start)} / ${clock(dur)} noktasından başladı</span>` : '';
+  const live = !(dur > 0);   // canlı yayında hız değiştirilemez
+  const btns = (IS_TV ? '<button data-act="full">⛶ Tam ekran</button><button data-act="pp" class="ppBtn">❚❚ Duraklat</button>' : '')
+    + (IS_TV && !live ? `<button data-act="speed" class="spBtn">⏩ Hız: ${rateLabel(ytRate)}</button>` : '')
+    + (dur > 120 ? `${start > 0 ? '<button data-act="start">↺ Baştan izle</button>' : ''}<button data-act="random">🎲 Rastgele yer</button>` : '')
+    + '<button data-act="cc" class="xb" hidden>💬 Altyazı</button><button data-act="audio" class="xb" hidden>🔊 Ses dili</button>'
+    + '<button data-act="later" class="laterBtn"></button>';
+  $('now').innerHTML = `<h2>${esc(who)} — ${esc(title)}</h2><div class="links">${startHint}${btns}<a href="https://www.youtube.com/watch?v=${encodeURIComponent(id)}${start > 0 ? '&t=' + start + 's' : ''}" target="_blank" rel="noopener">YouTube'da aç ↗</a></div>`;
+  document.querySelectorAll('.card').forEach(c => c.classList.toggle('sel', c.dataset.id === id));
+  nowLaterBtn();
+  if (IS_TV) {
+    if (watching()) osdTitle();   // tam ekranda kanal değiştirildi
+    else {
+      // Tam ekrana geçmeden küçük oynatıcıda başla; odak "Tam ekran" düğmesine gelsin
+      const fb = $('now').querySelector('[data-act="full"]');
+      if (fb) fb.focus({ preventScroll: true });
+      requestAnimationFrame(() => $('now').scrollIntoView({ block: 'end' }));   // video ve altındaki düğmeler görünsün
+    }
+  }
+}
+function osdTitle(){
+  if (!cur) return;
+  osd(`<b>${esc(cur.who)}</b>${esc(cur.title)}${cur.start > 0 ? ` <small>${clock(cur.start)} / ${clock(cur.dur)} noktasından başladı</small>` : ''}<small>OK: durdur (altyazı, ses dili) · OK basılı: İzleneceklere ekle · ◀ ▶: 30 sn · ▲ ▼: kanal değiştir · Geri: küçült</small>`, 6000);
+}
+// Oynatıcı düğmeleri (videonun altı ve duraklatma çubuğu)
+function playerAct(act){
+  if (!cur) return;
+  const { id, title, who, dur } = cur;
+  if (act === 'later') return toggleLater(cur);
+  if (act === 'full') return enterWatch();
+  if (act === 'exitfull') return exitWatch();
+  if (act === 'resume') return togglePlay();
+  if (act === 'pp') return togglePlay();
+  if (act === 'speed') return openPick('speed');
+  if (act === 'cc') return openPick('cc');
+  if (act === 'audio') return openPick('audio');
+  if (act === 'start') { if (dur > 120 || cur.start > 0) { ytTime = 0; ytCmd('seekTo', [0, true]); ytCmd('playVideo'); ytState = 1; hidePbar(); osd('<b>↺ Baştan</b>'); } return; }
+  if (act === 'random') play(id, title, who, dur, Math.floor(dur * (0.1 + Math.random() * 0.7)));
+}
+document.addEventListener('click', e => {
+  const a = e.target.closest('#now [data-act], #pbar [data-act]'); if (a) playerAct(a.dataset.act);
+});
+
+// ---------- Altyazı ve ses dili (Android uygulamasının oynatıcıya eklediği köprü üzerinden) ----------
+let bridge = false, pickKind = null, pickInfo = null;
+// Oynatma hızı: seçilen hız sonraki videolarda da kullanılır (canlı yayınlar hariç)
+let ytRate = 1;
+const rateLabel = r => r === 1 ? 'Normal' : String(r).replace('.', ',') + 'x';
+function setRate(r){
+  ytRate = r; ytCmd('setPlaybackRate', [r]);
+  document.querySelectorAll('.spBtn').forEach(b => b.textContent = '⏩ Hız: ' + rateLabel(r));
+}
+// Oynat/Duraklat düğmesinin yazısı oynatıcının durumuna göre
+function ppLabel(){ document.querySelectorAll('.ppBtn').forEach(b => b.textContent = ytState === 1 || ytState === 3 || ytState === -1 ? '❚❚ Duraklat' : '▶ Oynat'); }
+function ytx(cmd, extra = {}){
+  const f = $('yt'); if (!f || !f.contentWindow) return;
+  f.contentWindow.postMessage(JSON.stringify({ zaptiye: 1, cmd, ...extra }), '*');
+}
+function onBridge(d){
+  if (d.cmd === 'ready') {
+    bridge = true;
+    if (ytRate !== 1 && cur && cur.dur > 0) setRate(ytRate);
+    document.querySelectorAll('#now .xb').forEach(b => b.hidden = false);
+  } else if (d.cmd === 'info') {
+    pickInfo = d.notReady ? null : d;
+    if ($('pick').open) drawPick();
+  } else if (d.cmd === 'err') osd('<b>Oynatıcı hatası</b>' + esc(d.msg));
+}
+let pickOpener = null;
+function openPick(kind){
+  pickKind = kind; pickInfo = null; pickOpener = document.activeElement;
+  $('pickTitle').textContent = kind === 'cc' ? 'Altyazı' : kind === 'speed' ? 'Oynatma hızı' : 'Ses dili';
+  if (kind === 'speed') { pickInfo = {}; $('pick').showModal(); drawPick(); return; }
+  $('prows').innerHTML = `<p>${bridge ? 'Yükleniyor…' : 'Oynatıcı henüz hazır değil; video başlayınca tekrar dene.'}</p>`;
+  $('pick').showModal(); $('pickClose').focus();
+  if (bridge) ytx('info');
+}
+function drawPick(){
+  const d = pickInfo;
+  if (!d) { $('prows').innerHTML = '<p>Bilgi alınamadı. Video başladıktan sonra tekrar dene.</p>'; return; }
+  let rows = [];
+  if (pickKind === 'speed') {
+    [1, 1.5, 2].forEach(r => rows.push({ on: r === ytRate, label: rateLabel(r), rate: r }));
+  } else if (pickKind === 'cc') {
+    const c = d.cur;
+    rows.push({ on: !c, label: 'Kapalı', act: { lc: '' } });
+    d.tracks.forEach(t => rows.push({ on: !!c && c.lc === t.lc && !c.tl, label: t.name + (t.kind === 'asr' ? ' (otomatik)' : ''), act: { lc: t.lc } }));
+    // Türkçe altyazı yoksa YouTube'un otomatik çevirisini sun
+    const base = d.tracks.find(t => t.kind !== 'asr') || d.tracks[0];
+    if (base && !d.tracks.some(t => t.lc.startsWith('tr')) && d.trans.some(t => t.lc === 'tr'))
+      rows.push({ on: !!c && c.tl === 'tr', label: 'Türkçe (otomatik çeviri)', act: { lc: base.lc, tl: 'tr' } });
+    if (!d.tracks.length) rows.push({ note: 'Bu videoda altyazı yok.' });
+  } else {
+    if (d.audio.length > 1) d.audio.forEach((n, i) => rows.push({ on: i === d.audioCur, label: n, act: { i } }));
+    else rows.push({ note: 'Bu videoda tek ses dili var.' });
+  }
+  $('prows').innerHTML = rows.map((r, i) => r.note ? `<p>${esc(r.note)}</p>`
+    : `<button data-pick="${i}" class="${r.on ? 'on' : ''}"><span>${esc(r.label)}</span>${r.on ? '<span>✓</span>' : ''}</button>`).join('');
+  $('prows').onclick = e => {
+    const b = e.target.closest('[data-pick]'); if (!b) return;
+    const r = rows[+b.dataset.pick];
+    if (pickKind === 'speed') { setRate(r.rate); osd(`<b>Hız: ${esc(r.label)}</b>`); $('pick').close(); return; }
+    ytx(pickKind === 'cc' ? 'cc' : 'audio', r.act);
+    osd(`<b>${pickKind === 'cc' ? 'Altyazı' : 'Ses dili'}: ${esc(r.label)}</b>`);
+    $('pick').close();
+  };
+  ($('prows').querySelector('button.on') || $('prows').querySelector('button') || $('pickClose')).focus();
+}
+$('pickClose').onclick = () => $('pick').close();
+$('pick').addEventListener('close', () => {
+  if (watching() && !$('pbar').hidden) $('pbar').querySelector('[data-act="resume"]').focus();
+  else if (pickOpener && pickOpener.isConnected) pickOpener.focus({ preventScroll: true });   // açan düğmeye dön
+});
+
+// Tam ekranda duraklatınca seçenek çubuğu
+function showPbar(){
+  if (!watching()) return;
+  $('pbar').hidden = false;
+  $('pbar').querySelectorAll('[data-act="cc"], [data-act="audio"]').forEach(b => b.hidden = !bridge);
+  $('pbar').querySelector('[data-act="start"]').hidden = !(cur && (cur.dur > 120 || cur.start > 0));
+  nowLaterBtn();
+  $('pbar').querySelector('[data-act="resume"]').focus();
+}
+function hidePbar(){ $('pbar').hidden = true; }
+const pbarOpen = () => !$('pbar').hidden;
+
+function schedule(){
+  clearInterval(timer);
+  // İzlerken listeyi yenileme (video takılmasın); izleme bitince yenilenir
+  timer = setInterval(() => { if (document.hidden) return; if (watching()) pendingRefresh = true; else check(); }, every * 60000);
+}
+
+document.addEventListener('click', e => {
+  const c = e.target.closest('.card'); if (!c) return;
+  if (e.target.closest('[data-later]')) return toggleLater(cardItem(c));
+  play(c.dataset.id, c.dataset.t, c.dataset.w, +c.dataset.dur || 0, c.dataset.from != null ? +c.dataset.from : -1);
+});
+document.addEventListener('visibilitychange', () => { if (document.hidden) saveLaterPos(); });
+window.addEventListener('pagehide', saveLaterPos);
+$('tvMode').checked = tvMode;
+$('tvMode').onchange = e => { tvMode = e.target.checked; store.set('tv', tvMode); };
+document.addEventListener('visibilitychange', () => { if (!document.hidden && key && !watching()) check(); });
+$('refresh').onclick = check;
+$('every').value = String(every);
+$('every').onchange = e => { every = +e.target.value; store.set('every', every); schedule(); };
+$('more').onclick = () => { recentShown += PAGE; drawRecent(); };
+$('recentBox').hidden = days <= 0;
+$('qualityRow').hidden = !IS_TV;
+$('openSet').onclick = () => { $('key').value = key; $('days').value = days; $('quality').value = String(tvQuality); $('codec').value = tvCodec; $('fps').value = String(tvFps); $('set').showModal(); };
+$('close').onclick = () => $('set').close();
+$('clearCache').onclick = () => { cache = {}; store.set('cache', cache); for (const k in results) delete results[k]; msg('Kanal eşleşmeleri sıfırlandı; bir sonraki kontrolde yeniden aranacak.'); };
+$('save').onclick = () => {
+  key = $('key').value.trim();
+  days = Math.min(30, Math.max(0, Math.round(+$('days').value || 0)));
+  store.set('key', key); store.set('days', days);
+  if (IS_TV) { tvQuality = +$('quality').value || 0; store.set('q', tvQuality); tvCodec = $('codec').value; store.set('codec', tvCodec); tvFps = +$('fps').value || 0; store.set('fps', tvFps); }
+  for (const k in results) delete results[k];   // gün sayısı değişmiş olabilir
+  $('set').close(); check();
+};
+
+// ---------- Sekmeler ve listeler ----------
+// Sabitlenmiş listeler sekme olur. Açık liste sabit değilse geçici (kesikli) sekme olarak görünür.
+function renderTabs(){
+  const focusedList = document.activeElement?.closest?.('#tabs') ? document.activeElement.dataset.list : null;
+  const shown = lists.filter(l => l.pinned || l.id === activeId);
+  $('tabs').innerHTML = shown.map(l =>
+    `<button class="tab${l.id === activeId ? ' on' : ''}${l.pinned ? '' : ' temp'}" data-list="${esc(l.id)}" data-long title="Basılı tut: sekmeden kaldır / sabitle">${esc(l.name)}${l.watch && later.length ? `<small>${later.length}</small>` : ''}</button>`
+  ).join('') + `<button class="tab all" id="allLists">☰ Listeler</button>`;
+  layoutTabs();
+  if (focusedList) { const b = document.querySelector(`#tabs [data-list="${CSS.escape(focusedList)}"]`); if (b) b.focus({ preventScroll: true }); }
+}
+// Sekmeler üst satıra sığmazsa (ya da çok fazlaysa) solda dikey liste göster
+function layoutTabs(){
+  const root = document.documentElement;
+  root.classList.remove('tabs-side');
+  const nav = $('tabs'), n = nav.querySelectorAll('.tab:not(.all)').length;
+  if (innerWidth >= 900 && (nav.scrollWidth > nav.clientWidth + 2 || n > 8)) root.classList.add('tabs-side');
+}
+window.addEventListener('resize', layoutTabs);
+
+function switchTab(id){
+  if (!lists.some(l => l.id === id)) return;
+  activeId = id; saveLists(); renderTabs();
+  if (activeList().watch) return showLater();
+  const r = results[id];
+  if (r) show(id);
+  else { $('live').innerHTML = $('recent').innerHTML = '<p class="off">Kontrol ediliyor…</p>'; $('up').innerHTML = $('offl').innerHTML = ''; }
+  if (!r || Date.now() - r.at > every * 60000) check();
+}
+
+function togglePin(id){
+  const l = lists.find(x => x.id === id); if (!l) return;
+  l.pinned = !l.pinned; saveLists(); renderTabs(); if ($('lists').open) renderListRows();
+  const t = `📌 "${l.name}" ${l.pinned ? 'sekmeye sabitlendi' : 'sekmelerden kaldırıldı'}`;
+  if ($('lists').open) $('lhint').textContent = t; else osd(`<b>${esc(t)}</b>`);
+}
+
+function renderListRows(){
+  $('lrows').innerHTML = lists.map(l => {
+    const n = l.watch ? later.length + ' video' : parseLines(l.chans).length + ' kanal';
+    return `<div class="lrow">
+      <button class="lopen${l.id === activeId ? ' on' : ''}" data-open="${esc(l.id)}" data-list="${esc(l.id)}" data-long><span>${l.pinned ? '📌 ' : ''}${esc(l.name)}</span><small>${n}</small></button>
+      <button class="lpin${l.pinned ? ' on' : ''}" data-pin="${esc(l.id)}">${l.pinned ? '📌 Sabit' : '📌 Sabitle'}</button>
+      ${l.watch ? '<span></span>' : `<button class="ledit" data-edit="${esc(l.id)}">✎ Düzenle</button>`}</div>`;
+  }).join('');
+}
+function openLists(){
+  $('lhint').textContent = IS_TV
+    ? 'OK: listeyi aç · OK\'e basılı tut: sekmeye sabitle / kaldır · ✎ Düzenle: adı ve kanalları değiştir'
+    : 'Açmak için listenin adına bas. 📌 ile sekmeye sabitle ya da kaldır; listenin adına basılı tutarak da sabitleyebilirsin.';
+  renderListRows(); $('lists').showModal();
+  const cur = document.querySelector(`#lrows [data-open="${CSS.escape(activeId)}"]`); if (cur) cur.focus();
+}
+
+let editing = null;   // düzenlenen listenin kimliği; null = yeni liste
+function openEditor(id){
+  editing = id;
+  const l = lists.find(x => x.id === id);
+  $('leTitle').textContent = l ? 'Listeyi düzenle' : 'Yeni liste';
+  $('leName').value = l ? l.name : '';
+  $('leChans').value = l ? l.chans : '';
+  $('lePin').checked = l ? !!l.pinned : true;
+  $('leDelete').hidden = !l || lists.filter(x => !x.watch).length < 2;
+  $('leDelete').textContent = 'Listeyi sil'; $('leDelete').dataset.sure = '';
+  $('leDefault').textContent = 'Hazır haber listesini yükle';
+  $('listEd').showModal(); $('leName').focus();
+}
+$('leDefault').onclick = () => { $('leChans').value = DEFAULT; $('leDefault').textContent = 'Yüklendi ✓'; };
+$('leCancel').onclick = () => $('listEd').close();
+$('leDelete').onclick = () => {
+  // Kumandayla yanlışlıkla silmemek için iki adımlı onay
+  if (!$('leDelete').dataset.sure) { $('leDelete').dataset.sure = '1'; $('leDelete').textContent = 'Emin misin? Silmek için tekrar bas'; return; }
+  lists = lists.filter(l => l.id !== editing); delete results[editing];
+  if (activeId === editing) activeId = (lists.find(l => l.pinned && !l.watch) || lists[0]).id;
+  saveLists(); $('listEd').close(); renderTabs(); if ($('lists').open) renderListRows(); switchTab(activeId);
+};
+$('leSave').onclick = () => {
+  const name = $('leName').value.trim() || 'Yeni liste';
+  const chans = $('leChans').value.trim(), pinned = $('lePin').checked;
+  let l = lists.find(x => x.id === editing);
+  if (l) { if (l.chans !== chans) delete results[l.id]; Object.assign(l, { name, chans, pinned }); }
+  else { l = { id: uid(), name, chans, pinned }; lists.push(l); }
+  saveLists(); $('listEd').close();
+  if ($('lists').open) $('lists').close();
+  switchTab(l.id);
+};
+$('newList').onclick = () => openEditor(null);
+// Hazır listelerden (Teknoloji, Ürün İnceleme…) henüz olmayanları ekle; aynı adlı listeye dokunma
+// Hazır listeleri mevcut listelere kat: eksik liste oluşturulur, aynı adlı listeye eksik kanallar eklenir.
+// Otomatik çalışırken (force=false) daha önce sunulmuş kanallar tekrar eklenmez; kullanıcı sildiyse geri gelmez.
+function mergePresets(force){
+  const low = s => String(s || '').trim().toLocaleLowerCase('tr');
+  const seen = new Set(store.get('presetSeen', []));
+  const report = [];
+  for (const p of PRESETS) {
+    const lines = parseLines(p.chans).filter(c => force || !seen.has(low(c.line)));
+    lines.forEach(c => seen.add(low(c.line)));
+    if (!lines.length) continue;
+    let l = lists.find(x => !x.watch && low(x.name) === low(p.name));
+    if (!l) { lists.push({ id: uid(), name: p.name, chans: lines.map(c => c.line).join('\n'), pinned: true }); report.push(p.name); continue; }
+    const have = parseLines(l.chans), refs = new Set(have.map(c => low(c.ref))), names = new Set(have.map(c => low(c.name)));
+    const add = lines.filter(c => !refs.has(low(c.ref)) && !names.has(low(c.name)));
+    if (!add.length) continue;
+    l.chans = (l.chans.trim() ? l.chans.trim() + '\n' : '') + add.map(c => c.line).join('\n');
+    delete results[l.id];
+    report.push(`${p.name} (+${add.length} kanal)`);
+  }
+  store.set('presetSeen', [...seen]);
+  if (report.length) saveLists();
+  return report;
+}
+$('addPresets').onclick = () => {
+  const r = mergePresets(true);
+  renderTabs(); renderListRows();
+  $('lhint').textContent = r.length ? `Eklendi: ${r.join(', ')}` : 'Hazır listelerin hepsi zaten var.';
+};
+$('listsClose').onclick = () => $('lists').close();
+document.addEventListener('click', e => {
+  const t = e.target.closest('button'); if (!t) return;
+  if (t.id === 'allLists') return openLists();
+  if (t.classList.contains('tab') && t.dataset.list) return switchTab(t.dataset.list);
+  if (t.dataset.open) { $('lists').close(); return switchTab(t.dataset.open); }
+  if (t.dataset.pin) return togglePin(t.dataset.pin);
+  if (t.dataset.edit) return openEditor(t.dataset.edit);
+});
+
+// ---------- Basılı tutma: sekmeye sabitle / kaldır ----------
+// Fare/dokunmatik: 600 ms basılı tut ya da sağ tık. Kumanda: OK'e 600 ms basılı tut.
+const LONG_MS = 600;
+let lpTimer = null, lpFired = false, lpEl = null;
+// Sekme / liste: sabitle-kaldır. Video kartı: İzleneceklere ekle-çıkar.
+function fireLong(el){
+  lpFired = true;
+  if (el.dataset.list) togglePin(el.dataset.list);
+  else if (el.classList.contains('card')) toggleLater(cardItem(el));
+}
+document.addEventListener('pointerdown', e => {
+  const el = e.target.closest('[data-long]'); if (!el || e.button > 0) return;
+  lpFired = false; lpEl = el; clearTimeout(lpTimer);
+  lpTimer = setTimeout(() => fireLong(el), LONG_MS);
+});
+['pointerup', 'pointercancel', 'pointerleave'].forEach(t => document.addEventListener(t, () => clearTimeout(lpTimer), true));
+document.addEventListener('click', e => {   // basılı tutma çalıştıysa ardından gelen tıklamayı yut
+  if (lpFired && e.target.closest('[data-long]')) { e.preventDefault(); e.stopImmediatePropagation(); lpFired = false; }
+}, true);
+document.addEventListener('contextmenu', e => {
+  const el = e.target.closest('[data-long]'); if (!el) return;
+  e.preventDefault(); clearTimeout(lpTimer); fireLong(el); lpFired = false;
+});
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Enter' || watching()) return;
+  const el = document.activeElement; if (!el || !el.matches('[data-long]')) return;
+  e.preventDefault(); e.stopImmediatePropagation();   // tıklamayı tuş bırakılınca biz yapacağız
+  if (e.repeat) return;
+  lpFired = false; lpEl = el; clearTimeout(lpTimer);
+  lpTimer = setTimeout(() => fireLong(el), LONG_MS);
+}, true);
+document.addEventListener('keyup', e => {
+  if (e.key !== 'Enter' || !lpEl) return;
+  clearTimeout(lpTimer);
+  const el = lpEl; lpEl = null;
+  if (!lpFired && el === document.activeElement) el.click();
+  lpFired = false;
+}, true);
+if (location.protocol === 'file:') msg('Not: Dosyayı çift tıklayarak açtıysan YouTube oynatıcısı gömülü çalışmaz. Masaüstündeki Zaptiye uygulamasıyla aç ya da "YouTube\'da aç" bağlantısına tıkla.');
+
+// ---------- Oynatıcı kontrolü (YouTube IFrame postMessage) ----------
+let ytTime = 0, ytState = -1, osdTimer = null;
+function ytCmd(func, args = []){
+  const f = $('yt'); if (!f || !f.contentWindow) return;
+  const m = func === 'listening' ? { event: 'listening', id: 1, channel: 'widget' } : { event: 'command', func, args };
+  f.contentWindow.postMessage(JSON.stringify(m), '*');
+}
+window.addEventListener('message', e => {
+  if (!/youtube(-nocookie)?\.com$/.test(new URL(e.origin || 'http://x').hostname)) return;
+  let d; try { d = typeof e.data === 'string' ? JSON.parse(e.data) : e.data; } catch(_) { return; }
+  if (d && d.zaptiye === 1) return onBridge(d);
+  if (d && d.event === 'onReady') { ytCmd('listening'); if (ytRate !== 1 && cur && cur.dur > 0) setRate(ytRate); }
+  if (d && d.info) {
+    if (typeof d.info.currentTime === 'number') ytTime = d.info.currentTime;
+    if (typeof d.info.playerState === 'number' && d.info.playerState !== ytState) { ytState = d.info.playerState; ppLabel(); }
+  }
+});
+function osd(html, ms = 2500){
+  $('osd').innerHTML = html; $('osd').classList.add('show');
+  clearTimeout(osdTimer); osdTimer = setTimeout(() => $('osd').classList.remove('show'), ms);
+}
+
+// ---------- Android TV: tam ekran izleme ve kumanda ----------
+const watching = () => document.documentElement.classList.contains('watching');
+function enterWatch(){
+  if (!$('yt')) return;
+  document.documentElement.classList.add('watching'); fitPlayer();
+  if (document.activeElement) document.activeElement.blur();
+  if (ytState === 2) showPbar(); else osdTitle();
+}
+// Küçük oynatıcının kendisi de seçilebilir: OK → tam ekran
+if (IS_TV) {
+  $('stage').tabIndex = 0;
+  $('stage').addEventListener('click', () => { if (!watching()) enterWatch(); });
+  $('stage').addEventListener('keydown', e => { if (e.key === 'Enter' && !watching() && !e.repeat) { e.preventDefault(); e.stopPropagation(); enterWatch(); } });
+}
+// YouTube kaliteyi oynatıcının gerçek piksel boyutuna göre seçer. Tam ekranda oynatıcıyı seçilen
+// kaliteye denk gelen boyutta açıp ekrana büyütüyoruz: daha düşük çözünürlük, daha az takılma.
+function fitPlayer(){
+  const f = $('yt'); if (!f) return;
+  if (!watching() || !tvQuality) { f.removeAttribute('style'); return; }
+  const dpr = window.devicePixelRatio || 1;
+  const h = tvQuality / dpr, w = h * 16 / 9;
+  const s = Math.min(innerWidth / w, innerHeight / h);
+  if (s <= 1) { f.removeAttribute('style'); return; }   // ekran zaten küçükse dokunma
+  f.style.cssText = `inset:auto;left:50%;top:50%;width:${w}px;height:${h}px;transform:translate(-50%,-50%) scale(${s});transform-origin:center`;
+}
+window.addEventListener('resize', fitPlayer);
+function exitWatch(){
+  document.documentElement.classList.remove('watching');
+  fitPlayer();
+  saveLaterPos();
+  if (activeList().watch) showLater();   // "… kaldın" etiketleri güncellensin
+  if (pendingRefresh) { pendingRefresh = false; setTimeout(check, 300); }
+  $('osd').classList.remove('show');
+  hidePbar();
+  // küçük oynatıcıya dön: odak "Tam ekran" düğmesinde, OK ile yeniden tam ekran
+  const fb = $('now').querySelector('[data-act="full"]');
+  const c = document.querySelector(`.card[data-id="${CSS.escape(selected || '')}"]`);
+  (fb || c || $('refresh')).focus({ preventScroll: true });
+  $('now').scrollIntoView({ block: 'end' });
+}
+function zapList(){ return [...document.querySelectorAll('#live .card, #recent .card')]; }
+function zap(step){
+  const list = zapList(); if (!list.length) return;
+  let i = list.findIndex(c => c.dataset.id === selected);
+  i = i < 0 ? 0 : (i + step + list.length) % list.length;
+  list[i].click();
+}
+// Geri tuşu: Android uygulaması önce bunu çağırır; true dönerse uygulama kapanmaz
+// En üstteki açık pencere (liste düzenleyici, listeler ya da ayarlar)
+const topDialog = () => ['pick', 'listEd', 'lists', 'set'].map($).find(d => d.open) || null;
+window.tvBack = () => {
+  const d = topDialog();
+  if (d) { d.close(); return true; }
+  if (watching()) { exitWatch(); return true; }
+  return false;
+};
+function focusables(){
+  const dlg = topDialog(), scope = dlg || (watching() && pbarOpen() ? $('pbar') : document);
+  return [...scope.querySelectorAll('button, select, input, textarea, a[href], #stage[tabindex]')].filter(el => {
+    if (el.disabled || el.closest('[hidden]') || (!dlg && el.closest('dialog'))) return false;
+    const r = el.getBoundingClientRect(); return r.width > 0 && r.height > 0 && getComputedStyle(el).visibility !== 'hidden';
+  });
+}
+function focusFirst(){ (document.querySelector('#live .card') || document.querySelector('#recent .card') || document.querySelector('#tabs .tab.on') || $('refresh')).focus(); }
+function moveFocus(dir){
+  const cur = document.activeElement;
+  if (!cur || cur === document.body) { focusFirst(); return; }
+  const a = cur.getBoundingClientRect(), ax = a.left + a.width / 2, ay = a.top + a.height / 2;
+  let best = null, bestScore = Infinity;
+  for (const el of focusables()) {
+    if (el === cur) continue;
+    const b = el.getBoundingClientRect(), bx = b.left + b.width / 2, by = b.top + b.height / 2;
+    const dx = bx - ax, dy = by - ay, horiz = dir === 'ArrowRight' || dir === 'ArrowLeft';
+    let main;
+    if (dir === 'ArrowRight') { if (b.left < a.right - 4) continue; main = dx; }
+    else if (dir === 'ArrowLeft') { if (b.right > a.left + 4) continue; main = -dx; }
+    else if (dir === 'ArrowDown') { if (b.top < a.bottom - 4) continue; main = dy; }
+    else { if (b.bottom > a.top + 4) continue; main = -dy; }
+    // Aynı satırdaki (sağ/sol) ya da aynı sütundaki (yukarı/aşağı) öğeler önce gelir;
+    // hiç yoksa çaprazdaki en yakın öğeye gidilir.
+    const gap = horiz ? Math.max(0, b.top - a.bottom, a.top - b.bottom) : Math.max(0, b.left - a.right, a.left - b.right);
+    const score = main + (gap > 0 ? 5000 + gap * 2.5 : 0);
+    if (score < bestScore) { bestScore = score; best = el; }
+  }
+  if (best) { best.focus({ preventScroll: true }); best.scrollIntoView({ block: 'center', behavior: 'smooth' }); }
+}
+document.addEventListener('keydown', e => {
+  if (!IS_TV) return;
+  const k = e.key;
+  // Tam ekranda duraklatma çubuğu ya da seçim penceresi açıksa: yön tuşları onların içinde gezinir
+  if (watching() && (topDialog() || pbarOpen())) {
+    if (k === 'MediaPlayPause') { togglePlay(); e.preventDefault(); return; }
+    if (k === 'Escape' || k === 'GoBack') { if (window.tvBack()) e.preventDefault(); return; }
+    if (k.startsWith('Arrow')) { e.preventDefault(); moveFocus(k); }
+    return;   // OK: odaktaki düğmeye basar
+  }
+  if (watching()) {
+    if (k === 'MediaPlayPause') togglePlay();
+    else if (k === 'Enter' || k === ' ') {
+      // kısa bas: durdur/oynat (tuş bırakılınca) · basılı tut: İzleneceklere ekle
+      if (!e.repeat) { wDown = true; wFired = false; clearTimeout(wTimer); wTimer = setTimeout(() => { wFired = true; toggleLater(cur); }, LONG_MS); }
+    } else if (k === 'ArrowRight' || k === 'ArrowLeft' || k === 'MediaFastForward' || k === 'MediaRewind') {
+      const fwd = k === 'ArrowRight' || k === 'MediaFastForward';
+      ytTime = Math.max(0, ytTime + (fwd ? 30 : -30));
+      ytCmd('seekTo', [ytTime, true]); osd(`<b>${fwd ? '» +30 sn' : '« −30 sn'}</b>${clock(Math.floor(ytTime))}`);
+    } else if (k === 'ArrowUp' || k === 'ChannelUp') zap(-1);
+    else if (k === 'ArrowDown' || k === 'ChannelDown') zap(1);
+    else if (k === 'Escape' || k === 'Backspace' || k === 'GoBack') exitWatch();
+    else return;
+    e.preventDefault(); return;
+  }
+  if (k === 'Escape' || k === 'GoBack') { if (window.tvBack()) e.preventDefault(); return; }
+  if (!k.startsWith('Arrow')) return;
+  const t = document.activeElement;
+  if (t && t.tagName === 'TEXTAREA') {
+    // metnin başında ▲ / sonunda ▼ → kutudan çık; diğer durumlarda metin içinde hareket et
+    const atStart = t.selectionStart === 0 && t.selectionEnd === 0;
+    const atEnd = t.selectionStart === t.value.length;
+    if (!((k === 'ArrowUp' && atStart) || (k === 'ArrowDown' && atEnd))) return;
+  }
+  if (t && t.tagName === 'INPUT' && t.type !== 'checkbox' && (k === 'ArrowLeft' || k === 'ArrowRight')) return;
+  e.preventDefault(); moveFocus(k);
+});
+let wDown = false, wFired = false, wTimer = null;
+function togglePlay(){
+  if (ytState === 1) {
+    ytCmd('pauseVideo'); ytState = 2; ppLabel();
+    if (watching()) { $('osd').classList.remove('show'); showPbar(); } else osd('<b>❚❚ Durduruldu</b>');
+  } else {
+    ytCmd('playVideo'); ytState = 1; ppLabel(); hidePbar(); osd('<b>▶ Oynatılıyor</b>', 1500);
+  }
+}
+document.addEventListener('keyup', e => {
+  if (!wDown || (e.key !== 'Enter' && e.key !== ' ')) return;
+  clearTimeout(wTimer); wDown = false;
+  if (!wFired && watching()) togglePlay();
+  wFired = false; e.preventDefault();
+});
+// Liste yenilenince odaktaki kart kaybolmasın
+function keepFocus(fn){
+  const id = document.activeElement?.dataset?.id;
+  fn();
+  if (IS_TV && id && !watching()) { const c = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`); if (c) c.focus({ preventScroll: true }); }
+}
+
+// Sunucudaki config.json (varsa) varsayılan ayarları verir; bu cihazda kaydedilen ayarlar önceliklidir.
+async function loadConfig(){
+  if (location.protocol === 'file:') return;
+  try {
+    const r = await fetch('config.json', { cache: 'no-store' });
+    if (!r.ok) return;
+    const c = await r.json();
+    const has = k => { try { return localStorage.getItem('cyt_' + k) != null; } catch(e){ return false; } };
+    if (c.key && !has('key')) key = String(c.key).trim();
+    // Listeler: "lists": [{ "name": "Teknoloji", "channels": [...], "pinned": true }] ya da eski tek "channels"
+    const txt = v => Array.isArray(v) ? v.join('\n') : String(v || '');
+    if (!has('lists') && !has('chans')) {
+      if (Array.isArray(c.lists) && c.lists.length) {
+        lists = c.lists.map((l, i) => ({ id: 'c' + i, name: String(l.name || 'Liste ' + (i + 1)), chans: txt(l.channels), pinned: l.pinned !== false }));
+        activeId = lists[0].id;
+      } else if (c.channels) lists = [{ id: 'haber', name: 'Haber', chans: txt(c.channels), pinned: true }];
+    }
+    if (c.days != null && !has('days')) days = Math.min(30, Math.max(0, +c.days || 0));
+    if (c.tvMode != null && !has('tv')) { tvMode = !!c.tvMode; $('tvMode').checked = tvMode; }
+    if (c.every && !has('every')) { every = +c.every || 3; $('every').value = String(every); }
+    $('recentBox').hidden = days <= 0;
+  } catch (e) {}
+}
+
+(async () => {
+  await loadConfig();
+  ensureWatchList();
+  // Hazır listelere yeni kanal eklendiyse (uygulama güncellemesi) bunları kullanıcının listelerine kat
+  const merged = mergePresets(false);
+  if (!lists.some(l => l.id === activeId)) activeId = lists[0].id;
+  renderTabs();
+  if (merged.length) setTimeout(() => osd(`<b>Hazır listeler güncellendi</b>${esc(merged.join(' · '))}`, 5000), 800);
+  schedule();
+  if (key) check();
+  else { $('openSet').click(); if (IS_TV) setTimeout(() => $('key').focus(), 200); }
+  if (IS_TV && key) setTimeout(() => focusFirst(), 300);
+})();
+}
+</script>
+</body>
+</html>

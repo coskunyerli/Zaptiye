@@ -11,3 +11,6 @@ desktop/dist/
 desktop/release/
 desktop/web/
 node_modules/
+
+# GitHub Releases için hazırlanan dosyalar
+yayin/

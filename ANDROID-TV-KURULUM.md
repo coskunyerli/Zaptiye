@@ -1,6 +1,6 @@
 # Zaptiye — Android TV uygulaması
 
-APK dosyası: `android\Zaptiye.apk`
+APK dosyası: [GitHub Releases](https://github.com/coskunyerli/Zaptiye/releases) sayfasındaki `Zaptiye-AndroidTV-….apk` ya da kendin derlersen `android\Zaptiye.apk`.
 
 **Sunucu gerekmez.** Sayfa APK'nın içinde. Uygulama TV'de doğrudan YouTube'a bağlanır, tıpkı bilgisayardaki gibi. CasaOS kurulumu artık isteğe bağlı; yalnızca sayfayı tarayıcıdan açmak istersen gerekir.
 
@@ -26,7 +26,23 @@ Bu durumda APK'nın içinde anahtarın olur; APK dosyasını başkasıyla payla�
 
 ## 2. TV'ye kur
 
-### Yol A: Bilgisayardan ADB ile
+### Yol A: File Manager Plus ile (önerilen)
+
+Bilgisayar ya da geliştirici ayarı gerekmez.
+
+1. TV'de Google Play'den **File Manager Plus** uygulamasını kur.
+2. APK'yı TV'ye getir. İki yol var:
+   - **USB bellek:** APK'yı ([GitHub Releases](https://github.com/coskunyerli/Zaptiye/releases)'ten indirdiğin `Zaptiye-AndroidTV-….apk` ya da kendi derlediğin `android\Zaptiye.apk`) belleğe kopyala ve belleği TV'ye tak.
+   - **Ağ üzerinden:** File Manager Plus'ta **Uzaktan erişim (Remote access)** özelliğini aç. Ekranda bir adres görünür; bilgisayardan bu adrese bağlanıp APK'yı TV'ye kopyala.
+3. File Manager Plus'ta APK dosyasını bul ve aç, **Yükle**'ye bas.
+4. TV ilk seferde bilinmeyen kaynaktan kurulum izni ister: **Ayarlar**'a geçip **File Manager Plus** için izni aç, geri dönüp yeniden **Yükle**'ye bas. (İzin yeri TV'ye göre değişir; genelde **Ayarlar → Uygulamalar → Güvenlik ve kısıtlamalar → Bilinmeyen kaynaklar**.)
+5. Kurulum bitince **Aç**'a bas. Zaptiye TV'nin uygulama listesinde de görünür.
+
+**Güncelleme:** Yeni APK'yı aynı yolla açıp **Yükle** de; eski sürümün üzerine kurulur, ayarların ve listelerin silinmez.
+
+### Yol B: Bilgisayardan ADB ile
+
+Geliştiriciler ve sık güncelleyenler için.
 
 1. TV'de **Ayarlar → Cihaz tercihleri → Hakkında** yolunu izle. **Android TV işletim sistemi derlemesi** satırına 7 kez bas.
 2. **Ayarlar → Cihaz tercihleri → Geliştirici seçenekleri** içinde **USB hata ayıklama**yı (bazı TV'lerde "Ağ üzerinden hata ayıklama") aç.
@@ -39,10 +55,6 @@ adb install -r android\Zaptiye.apk
 ```
 
 İlk bağlantıda TV'de çıkan izin sorusuna **İzin ver** de.
-
-### Yol B: USB bellek ya da "Downloader" uygulaması
-
-APK'yı USB belleğe at ya da TV'deki **Downloader** uygulamasıyla aç. TV, bilinmeyen kaynaktan kurulum izni ister; o uygulama için izin ver.
 
 ## Kumanda
 
@@ -105,6 +117,6 @@ YouTube, kaliteyi oynatıcının ekrandaki boyutuna göre seçiyor. Uygulama tam
 
 ## Güncelleme
 
-`canli-yayinlar.html` dosyasını değiştirdiğinde TV'ye yansıması için APK'yı yeniden derleyip kurman gerekir (`build.ps1`, ardından `adb install -r ...`). Ayarlar ve API anahtarı güncellemede silinmez.
+`canli-yayinlar.html` dosyasını değiştirdiğinde TV'ye yansıması için APK'yı yeniden derleyip kurman gerekir (`build.ps1`, ardından File Manager Plus ile ya da `adb install -r ...` ile kur). Ayarlar ve API anahtarı güncellemede silinmez.
 
 `android\zaptiye.keystore` dosyasını sakla (ilk derlemede oluşur). Başka bir anahtarla imzalanan sürüm eskisinin üzerine kurulmaz.

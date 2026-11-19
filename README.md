@@ -32,6 +32,8 @@ Haber, teknoloji, ürün incelemesi ya da istediğin herhangi bir konudaki kanal
 
 Android TV ve masaüstü uygulamaları sunucu gerektirmez; sayfa uygulamanın içindedir ve doğrudan YouTube'a bağlanır.
 
+**Hazır dosyalar:** APK ve Windows kurulum dosyaları [Releases](https://github.com/coskunyerli/Zaptiye/releases) sayfasında. APK'yı TV'ye en kolay **File Manager Plus** ile kurarsın: APK'yı USB bellekle ya da File Manager Plus'ın uzaktan erişim özelliğiyle TV'ye kopyala, açıp **Yükle** de.
+
 ## Başlamak için: YouTube API anahtarı
 
 Zaptiye, kanalların durumunu YouTube Data API ile öğrenir. Bunun için ücretsiz bir anahtar gerekir:
